@@ -1,0 +1,27 @@
+/* Importar os estilos básicos do Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globais personalizados adicionais */
+body {
+  @apply bg-gray-100 text-gray-900; /* Define um fundo claro e texto escuro para o corpo da página */
+  font-family: 'Inter', sans-serif; /* Altera a fonte global para 'Inter', que é uma fonte moderna e fácil de ler */
+  margin: 0;
+  padding: 0;
+}
+
+/* Outros estilos globais */
+a {
+  @apply text-blue-600 hover:text-blue-800; /* Estilo para links */
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold; /* Torna todos os cabeçalhos em negrito */
+}
+
+button {
+  @apply font-semibold rounded-lg transition-all; /* Adiciona transições suaves para botões */
+}
+
